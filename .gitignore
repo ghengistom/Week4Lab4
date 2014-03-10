@@ -1,0 +1,21 @@
+import java.util.Scanner; //gets scanner library
+public class StoreNum {
+	public static void main(String[] args)
+	{
+		//create a scanner to hold user input from command window
+		Scanner input = new Scanner(System.in);
+		
+		int num1,
+			num2;
+		
+		System.out.print("Hello, enter two numbers. ");
+		num1= input.nextInt();
+		num2= input.nextInt();
+		System.out.println("Hello, you entered ");
+		System.out.print(num1);
+		System.out.print(" and ");
+		System.out.print(num2);
+		
+	}
+
+}
